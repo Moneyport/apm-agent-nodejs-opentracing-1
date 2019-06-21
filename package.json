@@ -1,6 +1,6 @@
 {
   "name": "@mojaloop/elastic-apm-node-opentracing",
-  "version": "v6.4.0-snapshot",
+  "version": "v6.4.1-snapshot",
   "description": "An OpenTracing bridge for the Elastic APM Node.js Agent based on version 1.1.0 of the original package",
   "main": "lib/tracer.js",
   "directories": {
@@ -24,7 +24,7 @@
     "tape": "^4.9.2"
   },
   "peerDependencies": {
-    "elastic-apm-node": "^2.4.0"
+    "@mojaloop/elastic-apm-node": "^2.4.0"
   },
   "keywords": [
     "elastic",
