@@ -1,6 +1,6 @@
 'use strict'
 
-const opentracing = require('opentracing')
+const opentracing = require('@mojaloop/opentracing')
 const test = require('tape')
 
 const { setup, getAgent } = require('./utils')
